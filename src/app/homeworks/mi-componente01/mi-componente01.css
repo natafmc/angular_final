@@ -1,3 +1,9 @@
 div {
   background: #d5d5d5;
 }
+button{
+  background-color: purple;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+}
