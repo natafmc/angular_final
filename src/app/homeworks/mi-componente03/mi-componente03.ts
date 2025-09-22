@@ -19,7 +19,7 @@ export class MiComponente03 implements OnInit {
   bgColor = '#f0f0f0';
   paddingSize = 10;
 
-  score = 75;
+  score = 95;
 
   tareaArray: Tarea[] = [];
 
@@ -42,6 +42,20 @@ export class MiComponente03 implements OnInit {
       {
         id: 3,
         nombre: 'Aprender JavaScript',
+        estado: true,
+        prioridad: 'alta',
+        fechaVencimiento: new Date(),
+      },
+      {
+        id: 4,
+        nombre: 'Aprender TypeScript',
+        estado: true,
+        prioridad: 'alta',
+        fechaVencimiento: new Date(),
+      },
+      {
+        id: 5,
+        nombre: 'Aprender Angular',
         estado: true,
         prioridad: 'alta',
         fechaVencimiento: new Date(),

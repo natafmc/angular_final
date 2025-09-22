@@ -33,7 +33,7 @@ export class AppMenu {
                   {  label: 'Componente 06', icon: 'pi pi-fw pi-check-square', routerLink: ['/works/c06'] },
                   {  label: 'Componente 07', icon: 'pi pi-fw pi-check-square', routerLink: ['/works/c07'] },
                   {  label: 'Componente 08', icon: 'pi pi-fw pi-check-square', routerLink: ['/works/c08'] },
-                  {  label: 'Componente 09', icon: 'pi pi-fw pi-check-square', routerLink: ['/works/c09'] },
+                  {  label: 'Componente 09', icon: 'pi pi-fw pi-check-square', routerLink: ['/works/c09','',0] },
                   {  label: 'Componente 10', icon: 'pi pi-fw pi-check-square', routerLink: ['/works/c10'] },
 
                 ]

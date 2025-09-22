@@ -26,7 +26,7 @@ export default [
   { path:'c06', data: { breadcrumb: 'Componente 06' }, component: MiComponente06 },
   { path:'c07', data: { breadcrumb: 'Componente 07' }, component: MiComponente07 },
   { path:'c08', data: { breadcrumb: 'Componente 08' }, component: MiComponente08 },
-  { path:'c09', data: { breadcrumb: 'Componente 09' }, component: MiComponente09 },
+  { path:'c09/:param_nombre/:param_edad', data: { breadcrumb: 'Componente 09' }, component: MiComponente09 },
   { path:'c10', data: { breadcrumb: 'Componente 10' }, component: MiComponente10 },
 
 
